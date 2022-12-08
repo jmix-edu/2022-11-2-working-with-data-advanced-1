@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://com.company.inventorycontrolsystem.screen.storage/storageEdit.caption"
+        extends="com/company/inventorycontrolsystem/screen/storage/storage-edit.xml">
+    <layout>
+        <form id="form">
+            <column>
+                <checkBox id="activeField" property="active"/>
+                <timeField id="workToField" property="workFrom"/>
+                <dateField id="workFromField" property="workTo"/>
+            </column>
+        </form>
+    </layout>
+</window>

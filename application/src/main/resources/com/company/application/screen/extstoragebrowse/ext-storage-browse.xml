@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<window xmlns="http://jmix.io/schema/ui/window"
+        caption="msg://com.company.inventorycontrolsystem.screen.storage/storageBrowse.caption"
+        extends="com/company/inventorycontrolsystem/screen/storage/storage-browse.xml">
+    <layout>
+        <groupTable id="storagesTable">
+            <columns>
+                <column id="active"/>
+                <column id="workFrom"/>
+                <column id="workTo"/>
+            </columns>
+        </groupTable>
+    </layout>
+</window>
